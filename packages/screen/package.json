@@ -1,6 +1,6 @@
 {
   "name": "@gaap/escpos-screen",
-  "version": "1.0",
+  "version": null,
   "description": "Escpos Screen API",
   "main": "index.js",
   "scripts": {

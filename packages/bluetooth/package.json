@@ -1,6 +1,6 @@
 {
   "name": "@gaap/escpos-bluetooth",
-  "version": "1.0",
+  "version": null,
   "description": "bluetooth adapter for escpos",
   "main": "index.js",
   "scripts": {
