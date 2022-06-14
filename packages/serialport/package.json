@@ -1,6 +1,6 @@
 {
   "name": "@gaap/escpos-serialport",
-  "version": null,
+  "version": "1.0",
   "description": "Serialport adapter for escpos",
   "main": "index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "name": "@gaap/escpos-console",
-  "version": null,
+  "version": "1.0",
   "description": "console adapter for escpos",
   "main": "index.js",
   "scripts": {

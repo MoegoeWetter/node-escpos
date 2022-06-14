@@ -1,6 +1,6 @@
 {
   "name": "@gaap/escpos-usb",
-  "version": null,
+  "version": "1.0",
   "description": "usb adapter for escpos",
   "main": "index.js",
   "scripts": {

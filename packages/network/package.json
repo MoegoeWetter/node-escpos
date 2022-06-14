@@ -1,6 +1,6 @@
 {
   "name": "@gaap/escpos-network",
-  "version": null,
+  "version": "1.0",
   "description": "network adapter for escpos",
   "main": "index.js",
   "scripts": {

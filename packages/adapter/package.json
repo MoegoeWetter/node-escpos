@@ -1,6 +1,6 @@
 {
   "name": "@gaap/escpos-adapter",
-  "version": null,
+  "version": "1.0",
   "description": "escpos adapter base class",
   "main": "index.js",
   "scripts": {
