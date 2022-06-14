@@ -1,6 +1,10 @@
 {
-  "packages": [
-    "packages/*"
-  ],
-  "version": "3.0.0-alpha.6"
+  "packages": ["packages/*"],
+  "version": "1.0",
+  "npmClient": "npm",
+  "publish": {
+    "ignoreChanges": ["ignored-file", "*.md"],
+    "message": "chore(release): publish",
+    "registry": "http://unity.gppos.net:4227"
+  }
 }

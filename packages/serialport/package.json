@@ -1,7 +1,7 @@
 {
-  "name": "escpos-serialport",
-  "version": "3.0.0-alpha.4",
-  "description": "serialport adapter for escpos",
+  "name": "@gaap/escpos-serialport",
+  "version": "1.0",
+  "description": "Serialport adapter for escpos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,6 +1,6 @@
 {
-  "name": "escpos",
-  "version": "3.0.0-alpha.6",
+  "name": "@gaap/escpos",
+  "version": "1.0",
   "description": "ESC/POS Printer driver for nodejs",
   "main": "index.js",
   "scripts": {
