@@ -74,7 +74,7 @@ USB.findPrinter = function(){
     let { usb } = require('usb');
     mUsb = usb;
   }
-  return usb.getDeviceList().filter(function(device){
+  return mUsb.getDeviceList().filter(function(device){
     try{
       return device.configDescriptor.interfaces.filter(function(iface){
         return iface.filter(function(conf){
