@@ -28,8 +28,11 @@ function USB(vid, pid){
     /** Changing Code From USB Library NPM
      * @see https://github.com/node-usb/node-usb#migrating-to-v200
      * **/
-    let { usb } = require('usb');
+    let { usb, findByIds, getDeviceList, findPrinter } = require('usb');
     mUsb = usb;
+    mUsb.findByIds = findByIds
+    mUsb.getDeviceList = getDeviceList
+    mUsb.findPrinter = findPrinter
   }
 
   EventEmitter.call(this);
@@ -70,9 +73,12 @@ function USB(vid, pid){
  * @return {[type]} [description]
  */
 USB.findPrinter = function(){
-  if (!mUsb) {
-    let { usb } = require('usb');
+  if (!mUsb) {    
+    let { usb, findByIds, getDeviceList, findPrinter } = require('usb');
     mUsb = usb;
+    mUsb.findByIds = findByIds
+    mUsb.getDeviceList = getDeviceList
+    mUsb.findPrinter = findPrinter
   }
   return mUsb.getDeviceList().filter(function(device){
     try{
